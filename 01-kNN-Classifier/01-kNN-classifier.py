@@ -1,6 +1,6 @@
+# Use MNIST hand-written digits for this practice
 import numpy as np
 import tensorflow as tf
-import os
 from tensorflow.examples.tutorials.mnist import input_data
 
 # Specify a subset of MNIST as training set and test set
@@ -20,7 +20,7 @@ xtr = tf.placeholder(tf.float32, shape=[None, 784])
 xte = tf.placeholder(tf.float32, shape=[784])  # Feed one test sample each time
 ytr = tf.placeholder(tf.float32, shape=[None, 10])
 
-# Calculate Eauclidean distance for each dimension, then sum up
+# Calculate Euclidean distance for each dimension, then sum up
 distance = tf.reduce_sum(tf.square(xtr - xte), reduction_indices=1)
 _, ind = tf.nn.top_k(-distance, k=K)  # Fine indices of top K neighbors
 

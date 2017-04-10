@@ -13,7 +13,8 @@ f = a / b
 sess = tf.Session()
 print(sess.run([c, d, e, f]))
 
-# A placeholder must be fed with data. On definition of a place holder dtype must be specified. One can also specify name and shape.
+# A placeholder must be fed with data. On definition of a place holder dtype must be specified. One can also specify
+# name and shape.
 # The feeding usually goes with 'feed_dict' argument.
 a = tf.placeholder(tf.float32)
 b = tf.placeholder(tf.float32)
@@ -44,7 +45,6 @@ with tf.name_scope('Loss'):
     MSE = tf.reduce_mean(tf.square(line - y), name='MSE')
 with tf.name_scope('SGD'):
     optimizer = tf.train.GradientDescentOptimizer(0.02).minimize(MSE)
-
 
 xtr = np.array([1.0, 2.0, 3.0, 4.0])
 ytr = np.array([2.0, 3.0, 4.0, 5.0])
