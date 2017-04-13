@@ -30,7 +30,7 @@ for i in range(K):
 # Voting: Each neighbor vote for a class. Summing their ground truths
 # therefore helps predict the test's label.
 # Gather the y-label of these neighbors and sum up. Find argmax.
-kneighbors = tf.transpose(tf.pack(nearest_neighbor, axis=1))
+kneighbors = tf.transpose(tf.stack(nearest_neighbor, axis=1))
 pred = tf.argmax(tf.reduce_sum(kneighbors, reduction_indices=0), axis=0)
 
 count = 0
