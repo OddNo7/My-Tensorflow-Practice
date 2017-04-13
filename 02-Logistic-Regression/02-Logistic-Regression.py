@@ -1,7 +1,7 @@
 # My-Tensorflow-Practice
 # 02-Logistic-Regression-GPU
 # Author: OddNo7
-# Date created: 2017/3/24
+# Last modified: 2017/04/13
 # Reference: aymericdamien/TensorFlow-Examples
 # https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/2_BasicModels/logistic_regression.py
 

@@ -1,3 +1,10 @@
+# My-Tensorflow-Practice
+# 01-kNN-Classifier
+# Author: OddNo7
+# Last modified: 2017/04/13
+
+# I wrote this for getting a hold of Tensorflow and for fun. For official
+# documentations, please go to https://www.tensorflow.org
 # Use MNIST hand-written digits for this practice
 import numpy as np
 import tensorflow as tf

@@ -1,3 +1,11 @@
+# My-Tensorflow-Practice
+# 00-Basic-Operations
+# Author: OddNo7
+# Last modified: 2017/04/13
+
+# I wrote this for getting a hold of Tensorflow and for fun. For official
+# documentations, please go to https://www.tensorflow.org
+
 import tensorflow as tf
 import numpy as np
 
