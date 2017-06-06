@@ -1,6 +1,17 @@
 # Tensorflow-Practice
-This is my Tensorflow practice repo. I will try to update it during my learning.
 
-Currently my practices are excerpted from https://github.com/aymericdamien/TensorFlow-Examples. In the future I hope to try some other things.
+This is a TensorFlow practice repo. I'm learning TensorFlow and updating this repo aperiodically.
 
-For Tensorflow documentations, please refer to https://tensorflow.org
+---
+* 00-Basic-Operations
+* 01-kNN-Classifier 
+* 02-Logistic-Regression
+* 03-CNN
+* 04-Autoencoder __(Newly added on 06/06/2017)__
+---
+
+Thanks to:
+
+https://github.com/nlintz/TensorFlow-Tutorials
+
+https://github.com/aymericdamien/TensorFlow-Examples
