@@ -1,6 +1,5 @@
 .idea
 *.tar.gz
 *.pyc
-*.ipynb
 *.gz
 *.ipynb_checkpoints
