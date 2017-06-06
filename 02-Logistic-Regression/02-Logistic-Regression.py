@@ -48,7 +48,7 @@ with tf.Session() as sess:
         cost_this_epoch = 0
         for i in range(num_batch):
             xtr, ytr = mnist.train.next_batch(batch_size)
-            _, l = sess.run([optimizer, loss, feed_dict={x: xtr, y: ytr}])
+            _, l = sess.run([optimizer, loss], feed_dict={x: xtr, y: ytr})
             cost_this_epoch += l * batch_size
         print('Epoch {} done. Loss: {:5f}'.format(epoch, cost_this_epoch))
     sess.run(accuracy, feed_dict={x: Xte, y: Yte})
