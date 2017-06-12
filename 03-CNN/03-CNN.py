@@ -13,8 +13,8 @@ from CNNutils import load_data, preprocess_image, BatchGenerator
 # Load cifar-10 dataset, use the first 1000 test samples for testing
 train_set = load_data(mode='train')
 test_set = load_data(mode='test')
-Xtrain, Ytrain = preprocess_image(train_set, mode='train')
-Xtest, Ytest = preprocess_image(test_set, mode='test')
+Xtrain, Ytrain = preprocess_image(train_set)
+Xtest, Ytest = preprocess_image(test_set)
 Xtest = Xtest[45000:, :, :, :]
 Ytest = Ytest[45000:]
 
