@@ -12,7 +12,7 @@ import sys
 
 sys.path.insert(0, './utils/')
 from tensorflow.contrib.rnn import BasicLSTMCell, static_rnn
-from CNNutils import BatchGenerator, preprocess_image, load_data
+from CIFARutils import BatchGenerator, preprocess_image, load_data
 
 # Load cifar-10 dataset, use the first 1000 test samples for testing
 train_set = load_data(mode='train')

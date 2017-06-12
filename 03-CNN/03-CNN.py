@@ -1,7 +1,7 @@
 # My-Tensorflow-Practice
 # 03-CNN
 # Author: OddNo7
-# Last modified: 2017/04/13
+# Last modified: 2017/06/12
 # Reference: aymericdamien/TensorFlow-Examples
 # https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/3_NeuralNetworks/convolutional_network.py
 # I wrote this for getting a hold of Tensorflow and for fun. For official
