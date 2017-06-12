@@ -1,5 +1,5 @@
 # My-Tensorflow-Practice
-# 04-Autoencoder
+# 05-LSTM classification
 # Author: OddNo7
 # Last modified: 2017/06/12
 # Reference:
