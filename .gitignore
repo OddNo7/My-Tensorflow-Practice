@@ -4,3 +4,5 @@
 *.gz
 *.ipynb_checkpoints
 *cifar10
+*cifar-10*
+*data-batch*
