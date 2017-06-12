@@ -3,3 +3,4 @@
 *.pyc
 *.gz
 *.ipynb_checkpoints
+*cifar10

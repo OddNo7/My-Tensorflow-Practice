@@ -7,7 +7,6 @@
 # https://blog.keras.io/building-autoencoders-in-keras.html
 # I wrote this for getting a hold of Tensorflow and for fun. For official
 # documentations, please go to https://www.tensorflow.org
-
 # Import modules
 from matplotlib import pyplot as plt
 import tensorflow as tf
