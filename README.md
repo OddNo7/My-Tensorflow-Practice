@@ -8,7 +8,7 @@ This is a TensorFlow practice repo. I'm learning TensorFlow and updating this re
 * 02-Logistic-Regression
 * 03-CNN
 * 04-Autoencoder 
-* 05-LSTM classication __(Newly added on 06/12/2017)__
+* 05-LSTM classification __(Newly added on 06/12/2017)__
 ---
 
 Thanks to:
